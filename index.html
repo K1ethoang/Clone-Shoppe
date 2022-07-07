@@ -21,29 +21,32 @@
     <header id="header">
       <div class="grid">
         <nav class="header__navbar ">
-          <div class="header__navbar-list">
-            <a href="#" class="header__navbar-item header__navbar-item-separate">Kênh người bán</a>
+          <ul class="header__navbar-list">
+            <li class="header__navbar-item header__navbar-item-separate">Kênh người bán</li>
             <a href="#" class="header__navbar-item header__navbar-item-separate">Trở thành người bán Shopee</a>
-            <a href="#" class="header__navbar-item header__navbar-item--has-qr header__navbar-item-separate">Tải ứng
+            <li class="header__navbar-item header__navbar-item--has-qr header__navbar-item-separate">
+              Tải ứng
               dụng
-              <!-- start:QR code -->
+              <!-- start: QR code -->
               <div class="header__qr">
                 <img src="./assets/img/qr_code.png" alt="qr code" class="header__qr-img">
                 <div class="header__qr-apps">
-                  <a href="#" class="header__qr-link">
+                  <a href="https://apps.apple.com/vn/app/id959841449" target="_blank" class="header__qr-link">
                     <img src="./assets/img/app_store.png" alt="App Store" class="header__qr-download-img">
                   </a>
-                  <a href="#" class="header__qr-link">
+                  <a href="https://play.google.com/store/apps/details?id=com.shopee.vn&referrer=af_tranid%3Drsx9V4J79OX3NH5LwyqLcw%26pid%3DOrganicA%26c%3Dlp_home_and1"
+                    target="_blank" class="header__qr-link">
                     <img src="./assets/img/google_play.png" alt="Google Play" class="header__qr-download-img">
                   </a>
-                  <a href="#" class="header__qr-link">
+                  <a href="https://appgallery.huawei.com/app/C101433653?sharePrepath=ag&channelId=web&detailType=0"
+                    target="_blank" class="header__qr-link">
                     <img src="./assets/img/app_gallery.png" alt="App Gallery" class="header__qr-download-img">
                   </a>
                 </div>
               </div>
               <!-- end: QR code -->
-            </a>
-            <a href="#" class="header__navbar-item ">
+            </li>
+            <li class="header__navbar-item ">
               <span class="header__navbar-title--no-pointer">Kết nối</span>
               <a href="https://www.facebook.com/profile.php" target="_blank" class="header__navbar-icon-link">
                 <i class=" header__navbar-icon fa-brands fa-facebook"></i>
@@ -51,30 +54,53 @@
               <a href="https://www.instagram.com" target="_blank" class="header__navbar-icon-link">
                 <i class=" header__navbar-icon fa-brands fa-instagram"></i>
               </a>
-            </a>
-          </div>
-
-          <div class="header__navbar-list">
-            <div class="header__navbar-item">
-              <a href="#" class="header__navbar-item-link">
+            </li>
+          </ul>
+          <ul class="header__navbar-list">
+            <li class="header__navbar-item header__navbar-item--has-notify">
+              <a href="#" class="header__navbar-item-link ">
                 <i class=" header__navbar-icon fa-solid fa-bell"></i>
                 Thông báo
               </a>
-            </div>
-            <div class="header__navbar-item">
+              <!-- start: Header Notification-->
+              <div class="header__notify">
+                <div class="header__notify-main">
+                  <img src="./assets/img/notification.png" alt="Notification" class="header__notify-main-img">
+                  <span class="header__notify-main-suggest">
+                    Đăng nhập để xem Thông báo
+                  </span>
+                </div>
+                <div class="header__notify-footer">
+                  <a href="#" class="header__notify-footer-item">
+                    Đăng ký
+                  </a>
+                  <a href="#" class="header__notify-footer-item">
+                    Đăng nhập
+                  </a>
+                </div>
+              </div>
+              <!-- end: Header Notification-->
+            </li>
+            <li class="header__navbar-item">
               <a href="#" class="header__navbar-item-link">
                 <i class=" header__navbar-icon fa-solid fa-circle-question"></i>
                 Hỗ trợ
               </a>
-            </div>
-            <div class="header__navbar-item">
+            </li>
+            <li class="header__navbar-item header__navbar-item--has-lang">
               <i class=" header__navbar-icon fa-solid fa-globe"></i>
-              Tiếng Việt
-              <i class=" header__navbar-icon fa-solid fa-angle-down" style="font-size:10px;"></i>
-            </div>
-            <a href="#" class="header__navbar-item header__navbar-item-separate">Đăng ký</a>
-            <a href="#" class="header__navbar-item">Đăng nhập</a>
-          </div>
+              <span class="header__navbar-title">Tiếng Việt</span>
+              <!-- start: Header Language -->
+              <div class="header__lang">
+                <span class="header__lang-item">Tiếng Việt</span>
+                <span class="header__lang-item">English</span>
+              </div>
+              <!-- end: Header Language -->
+              <i class=" header__navbar-icon fa-solid fa-angle-down" style="font-size: 12px;"></i>
+            </li>
+            <li class="header__navbar-item header__navbar-item-separate">Đăng ký</li>
+            <li class="header__navbar-item">Đăng nhập</li>
+          </ul>
         </nav>
     </header>
   </div>
