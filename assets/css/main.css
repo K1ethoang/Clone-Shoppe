@@ -1244,14 +1244,14 @@
   justify-content: center;
 }
 
+.footer__download-app-link {
+  text-decoration: none;
+}
+
 .footer__download-app-img {
   display: inline-block;
   width: 50%;
   padding: 2px 0;
-}
-
-.footer__download-app-link {
-  text-decoration: none;
 }
 
 /* Footer Bottom */
