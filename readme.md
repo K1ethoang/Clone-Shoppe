@@ -7,6 +7,12 @@
 - Clone website này nhằm luyện tập `HTML` `CSS` `JavaScript` `Responsive`
 - Không clone lại hoàn toàn theo website chính, có biến tấu thêm
 
+## 💻 Tech
+- [x] `HTML`
+- [x] `CSS`
+- [ ] `JavaScript`
+- [ ] `Responsive`
+
 ## 📸 Một số ảnh demo
 
 ![](./assets/img/demo/laptop/laptop-demo-0.png)
