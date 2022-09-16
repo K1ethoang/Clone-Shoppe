@@ -661,7 +661,7 @@
   padding-left: 0;
   list-style: none;
   width: 100%;
-  height: 56vh;
+  max-height: 40vh;
   overflow-y: auto;
 }
 
@@ -741,6 +741,7 @@
 }
 
 .main-banner__list {
+  display: inline-flex;
   padding: 0;
   margin: 0;
   list-style-type: none;
